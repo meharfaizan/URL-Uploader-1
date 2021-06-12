@@ -22,7 +22,7 @@ License -> https://github.com/ToonsHub/URL-Uploader/blob/main/LICENSE
 
 <b>Deploy in your vps</b>
 ```sh
-git clone https://github.com/FayasNoushad/URL-Uploader
+git clone https://github.com/ToonsHub/URL-Uploader
 cd URL-Uploader
 pip3 install -r requirements.txt
 # <Create Variables appropriately>
