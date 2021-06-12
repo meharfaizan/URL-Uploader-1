@@ -89,6 +89,9 @@ async def echo(bot, update):
             url = url.strip()
         if file_name is not None:
             file_name = file_name.strip()
+        if "hotstar" in url:
+            command_to_exec.append("--geo-bypass-country")
+            command_to_exec.append("IN")
         if youtube_dl_username is not None:
             youtube_dl_username = youtube_dl_username.strip()
         if youtube_dl_password is not None:
