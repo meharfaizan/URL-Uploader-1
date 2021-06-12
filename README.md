@@ -6,16 +6,16 @@ A simple url uploader bot with permenent thumbnail support
 Scrapped some code from @SpEcHIDe's AnyDLBot Repository
 Please fork this repository don't import code
 Made with Python3
-(C) @FayasNoushad
+(C) @ToonsHub
 Copyright permission under GNU General Public License v3.0
-License -> https://github.com/FayasNoushad/URL-Uploader/blob/main/LICENSE
+License -> https://github.com/ToonsHub/URL-Uploader/blob/main/LICENSE
 ```
 
 ## Deploy 
 
 <b>Deploy on Heroku</b>
 <p align="left">
-  <a href="https://heroku.com/deploy?template=https://github.com/FayasNoushad/URL-Uploader">
+  <a href="https://heroku.com/deploy?template=https://github.com/ToonsHub/URL-Uploader">
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 </p>
@@ -40,13 +40,12 @@ python3 bot.py
 
 ## Accounts
 
-* [Twitter](https://twitter.com/FayasNoushad)
-* [YouTube](https://youtube.com/channel/UCo3BrCslEn8ru34gTXyfVnQ)
-* [GitHub](https://github.com/FayasNoushad)
-* [Telegram](https://telegram.me/FayasNoushad)
+* [YouTube](https://www.youtube.com/channel/UCL_YVurWT5RGkeHGbmG1odA)
+* [GitHub](https://github.com/ToonsHub)
+* [Telegram](https://telegram.me/ToonsHub2006)
 
 ## Credits
 
-* [Fayas Noushad](https://github.com/FayasNoushad)
+* [ToonsHub](https://github.com/ToonsHub)
 * [Shrimadhav UK](https://github.com/SpEcHIDe)
 * [Pyrogram](https://github.com/pyrogram/pyrogram)
