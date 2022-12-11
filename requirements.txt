@@ -7,7 +7,7 @@ numpy
 Pillow
 ffmpeg-python
 ffmpeg
-pyrogram
+Pyrogram==1.4.4
 feedparser
 requests
 tgcrypto
