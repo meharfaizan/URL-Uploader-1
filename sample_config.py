@@ -49,5 +49,5 @@ class Config(object):
     DEF_WATER_MARK_FILE = ""
 
     # Sql Database url
-    DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Uploader:Uploader@cluster0.ba0ppxa.mongodb.net/?retryWrites=true&w=majority")
+    DB_URI = os.environ.get("DATABASE_URL", "postgres://iitukaph:V3KiGhnMu33BdrUsUs7PDr3w_tZDOs1n@mouse.db.elephantsql.com/iitukaph")
     
