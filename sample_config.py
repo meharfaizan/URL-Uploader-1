@@ -3,15 +3,15 @@ import os
 class Config(object):
 
     # get a token from @BotFather
-    TG_BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    TG_BOT_TOKEN = os.environ.get("BOT_TOKEN", "5541380668:AAGH9yGr_4leFAgG35raDvAi1Q82ynMJGG0")
 
     # The Telegram API things
     # Get these values from my.telegram.org
-    APP_ID = int(os.environ.get("APP_ID", 12345))
-    API_HASH = os.environ.get("API_HASH")
+    APP_ID = int(os.environ.get("APP_ID", "6534707"))
+    API_HASH = os.environ.get("API_HASH","4bcc61d959a9f403b2f20149cbbe627a")
 
     # Array to store users who are authorized to use the bot
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "1430593323").split())
 
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = "./DOWNLOADS"
@@ -34,13 +34,13 @@ class Config(object):
     HTTP_PROXY = os.environ.get("HTTP_PROXY", "")
     
     # Update channel for Force Subscribe
-    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
+    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "animecolony")
 
     # maximum message length in Telegram
     MAX_MESSAGE_LENGTH = 4096
 
     # set timeout for subprocess
-    PROCESS_MAX_TIMEOUT = int(os.environ.get("TIME_LIMIT"))
+    PROCESS_MAX_TIMEOUT = int(os.environ.get("TIME_LIMIT","0"))
     
     # dict to hold the ReQuest queue
     ADL_BOT_RQ = {}
@@ -49,5 +49,5 @@ class Config(object):
     DEF_WATER_MARK_FILE = ""
 
     # Sql Database url
-    DB_URI = os.environ.get("DATABASE_URL", "")
+    DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Uploader:Uploader@cluster0.ba0ppxa.mongodb.net/?retryWrites=true&w=majority")
     
